@@ -1,0 +1,9 @@
+# Don't track my ACD auth codes
+oauth_data
+
+# Don't track the log output
+*.log
+
+# Don't track the ACD database
+endpoint_data
+nodes.db
