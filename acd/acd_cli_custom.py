@@ -48,8 +48,8 @@ logger = logging.getLogger(_app_name)
 cp = os.environ.get('ACD_CLI_CACHE_PATH')
 sp = os.environ.get('ACD_CLI_SETTINGS_PATH')
 
-cp = '.'
-sp = '.'
+cp = './acd'
+sp = './acd'
 
 CACHE_PATH = cp if cp else appdirs.user_cache_dir(_app_name)
 SETTINGS_PATH = sp if sp else appdirs.user_config_dir(_app_name)

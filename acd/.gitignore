@@ -6,4 +6,6 @@ oauth_data
 
 # Don't track the ACD database
 endpoint_data
-nodes.db
+nodes.db*
+
+__pycache__
