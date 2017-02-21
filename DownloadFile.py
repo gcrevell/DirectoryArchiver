@@ -48,6 +48,7 @@ def main():
 	if len(sys.argv) < 3 or len(sys.argv) > 4:
 		# Wrong number of arguments.
 		print 'Proper use: ' + sys.argv[0] + ' [URL] [Dest] {Name}'
+		return
 
 	downloadFile(sys.argv[1], dest = sys.argv[2], name = sys.argv[3] if 3 < len(sys.argv) else None)
 
